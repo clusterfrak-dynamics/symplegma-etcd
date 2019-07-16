@@ -1,0 +1,6 @@
+---
+bin_dir: /opt/bin
+
+etcd_version: 3.3.13
+etcd_release_url: https://github.com/etcd-io/etcd/releases/download/v{{ etcd_version }}/etcd-v{{ etcd_version }}-linux-amd64.tar.gz
+etcd_release_dir: /opt/etcd
